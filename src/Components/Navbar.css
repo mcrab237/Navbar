@@ -1,0 +1,90 @@
+.Nav{
+    justify-content: center;
+    text-align: center;
+    background-color: #563CB1;
+    padding: 30px 170px  30px 170px;
+
+}
+.NavbarWrapper{
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+ justify-content: center;
+}
+.NavLogo{
+    float: left;
+    font-size: 25px;
+    font-weight: 900;
+    margin: -8px 2px 1px 15px;
+    transition: 0.2s ease-in;
+
+    
+}
+.NavElements{
+    display: inline;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-weight: 200;
+    padding: 10px 20px 10px 20px;
+}
+
+
+.NavButton{
+    float: right;
+    background-color: #E93A7D;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: -8px 2px 1px 2px;
+
+}
+.NavButton:hover{
+    background-color: #dc3776;
+    cursor: pointer;
+
+}
+.Link{
+    text-decoration: none;
+    color: white;
+
+}
+.Link:hover{
+    cursor: pointer;
+   color: #E93A7D;
+    border-radius: 20px;
+    transition: 0.5ms;
+
+}
+.active{
+    cursor: pointer;
+   color: #E93A7D;
+    border-radius: 20px;
+    transition: 0.5ms;
+
+}
+.Icon{
+    display: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+}
+@media screen and (max-width: 925px){
+    .Nav{
+        padding: 25px 0px  25px 20px;
+    }
+        .NavElements{
+            display: none;
+        }
+        .NavButton{
+            display: none;
+        }
+        .Icon{
+            display: inline;
+            position: relative;
+            left: 35%;
+        }
+        .NavLogo{
+            margin: 0;
+            transition: 0.2s ease-in-out;
+        }
+}
